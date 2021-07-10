@@ -5,8 +5,11 @@ Cosmos Emulator now supports Gremlin API (since version 2.1.4), however no one b
 
 This quick start sample program shows how to get started with the Graph (Gremlin) API for Azure Cosmos DB using the open-source connector Gremlin.Net and Cosmos DB Emulator.
 
+## IMPORTANT
+This repo is no longer maintained. Cosmos DB Emulator documentation now clearly shows how to use Graph API. Please follow instructions on [Install and use the Azure Cosmos DB Emulator for local development and testing - Gremlin API](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21#gremlin-api).
+
 ## Getting started
-1. Clone this repository/
+1. Clone this repository.
 
 2. Open the GremlinNetSample.sln solution and restore the packages. 
 3. Go to your Cosmos DB Emulator install location and open PowerShell window in that location. Default install path is `C:\Program Files\Azure Cosmos DB Emulator`
